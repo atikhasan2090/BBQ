@@ -1,0 +1,80 @@
+.navbar-brand img{
+	width: 100px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgb(85, 0, 0);
+}
+
+.btn-custom{
+	background-color: rgb(85, 0, 0);
+	color: white !important;
+	border-radius: 30px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+ }
+
+
+ .banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2f2f2f;
+    background-blend-mode: multiply;
+    color: #fff;
+    text-align: center;
+ }
+
+ .banner .row{
+ 	min-height: 70vh;
+ }
+
+ .banner-btn a{
+	
+	color: white !important;
+	border-radius: 30px;
+	padding-right: 30px !important;
+	padding-left: 30px !important;
+	border: 1px solid white;
+	position: relative;
+
+ }
+
+ .banner-btn a:: before{
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: -50px;
+	left: 0;
+	border-radius: 30px;
+	border: 1px solid white;
+
+ } 
+ .banner-btn li{
+ 	padding: 0 10px;
+
+ }
+
+.about-bbq-section{
+	padding: 100px 0;
+
+}
+
+.about-bbq{
+    text-align: center;
+}
+.about-bbq h3{
+    color: #616161;
+    font-weight: 100;
+    font-size: 18px;
+}
+.about-bbq h1{color: #550000;font-weight: 900;font-size: 3em;}
+.about-bbq p{}
+
+.col-xl-5{
+	align-items: center !important;
+}
